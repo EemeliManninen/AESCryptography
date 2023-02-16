@@ -11,14 +11,14 @@ namespace Frends.Community
         /// The secret key to use for the AES algorithm, 16 or 32 bit.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        [DefaultValue("Lorem ipsum dolor sit amet.")]
+        [DefaultValue("")]
         public string SecretKey { get; set; }
 
         /// <summary>
         /// Plain text string to be encrypted.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        [DefaultValue("Lorem ipsum dolor sit amet.")]
+        [DefaultValue("")]
         public string PlainText { get; set; }
     }
 
@@ -28,14 +28,14 @@ namespace Frends.Community
         /// The secret key to use for the AES algorithm, 16 or 32 bit.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        [DefaultValue("Lorem ipsum dolor sit amet.")]
+        [DefaultValue("")]
         public string SecretKey { get; set; }
 
         /// <summary>
         /// Encrypted secret string to be decrypted.
         /// </summary>
         [DisplayFormat(DataFormatString = "Text")]
-        [DefaultValue("Lorem ipsum dolor sit amet.")]
+        [DefaultValue("")]
         public string EncryptedString { get; set; }
     }
 
