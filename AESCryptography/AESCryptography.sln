@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frends.Community.AESCryptography", "AESCryptography\Frends.Community.AESCryptography.csproj", "{B7B35F83-2AD5-4F50-961A-6EB4AEA857F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frends.Community.AESCryptography.Tests", "AESCryptography.Tests\Frends.Community.AESCryptography.Tests.csproj", "{F9F0FBA7-C7AF-4B42-BA94-280880FEFC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B35F83-2AD5-4F50-961A-6EB4AEA857F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B35F83-2AD5-4F50-961A-6EB4AEA857F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B35F83-2AD5-4F50-961A-6EB4AEA857F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B35F83-2AD5-4F50-961A-6EB4AEA857F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F0FBA7-C7AF-4B42-BA94-280880FEFC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F0FBA7-C7AF-4B42-BA94-280880FEFC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F0FBA7-C7AF-4B42-BA94-280880FEFC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F0FBA7-C7AF-4B42-BA94-280880FEFC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31EB34AC-1803-4FF3-84BE-CEED0F598010}
+	EndGlobalSection
+EndGlobal
